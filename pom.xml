@@ -212,9 +212,9 @@
 				<scope>test</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.springframework</groupId>
+				<groupId>org.springframework.security.oauth</groupId>
 				<artifactId>spring-security-oauth2</artifactId>
-				<version>${spring.security.version}</version>
+				<version>2.0.12.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -316,7 +316,7 @@
 			<artifactId>mockito-all</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework</groupId>
+			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
 		</dependency>
 		<dependency>
